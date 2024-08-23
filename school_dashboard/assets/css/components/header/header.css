@@ -1,0 +1,42 @@
+header section:nth-child(2) {
+    width: 6rem;
+    height: 6rem;
+}
+
+figure, img {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* ----------------------------------------------------------- */
+.header__left {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+/* ----------------------------------------------------------- */
+.header__left .header__campus {
+    height: 2.8rem;
+    padding-left: 0.8rem;
+    border-left: 2px solid var(--IDEEN-green);
+    font-weight: 800;
+    color: var(--IDEEN-green);
+}
+
+.header__rigth .button--mobile-menu {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    background-color: var(--off-white);
+}
+
+.header__rigth .button--mobile-menu svg {
+    width: 2rem;
+    height: 2rem;
+    color: var(--onyx-black);
+}
+
+

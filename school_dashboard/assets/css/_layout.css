@@ -1,0 +1,88 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 1.2rem;
+    background-color: var(--IDEEN-blue);
+}
+
+.header {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 2.4rem);
+    height: 6rem;
+}
+
+.aside {
+    display: none;
+}
+
+.main {
+    position: absolute;
+    width: calc(100% - 2.4rem);
+    height: calc(100vh - 9.8rem);
+    top: 8.6rem;
+    right: 1.2rem;
+    left: 1.2rem;
+    border-radius: var(--layout-edge);
+    background-color: var(--off-white);
+}
+
+@media (min-width: 1025px) {
+    .header {
+        display: none;
+    }
+
+    .aside {
+        position: absolute;
+        top: 1.2rem;
+        left: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 6rem;
+        height: calc(100vh - 2.4rem);
+
+        border: 1px solid white;
+    }
+
+    .main {
+        display: block;
+        width: calc(100% - 9.6rem);
+        height: calc(100vh - 2.4rem);
+        top: 1.2rem;
+        right: 1.2rem;
+        left: 8.4rem;
+    }
+}
+
+
+
+/* Centering both vertically and horizontally - Centrado vertical y horizontal */
+.flex-between-x {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-between-y {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-center {
+    display: grid;
+    place-content: center;
+}
+
+
+

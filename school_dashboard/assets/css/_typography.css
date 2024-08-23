@@ -1,0 +1,58 @@
+:root {
+    /* Fonts - Tipografías */
+    --primary-font: "Montserrat";
+    --secondary-font: "Sora";
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("../fonts/Sora-VariableFont_wght.ttf");
+    font-weight: 100 800;
+    font-style: normal;
+}
+
+/* Font sizes for headings and body text - Tamaños para los encabezados y texto general */
+html {
+    font-family: var(--primary-font);
+}
+
+h1 {
+    font-size: clamp(6.4rem, 6vw, 7.2rem);
+    font-weight: 900;
+}
+
+h2 {
+    font-size: clamp(5.2rem, 5.2vw, 6.4rem);
+    font-size: 700;
+}
+
+h3 {
+    font-size: clamp(4rem, 4.4vw, 5.2rem);
+    font-size: 600;
+}
+
+h4 {
+    font-size: clamp(3.2rem, 3.2vw, 4rem);
+    font-size: 500;
+}
+
+h5 {
+    font-size: clamp(2.4rem, 2.8vw, 3.2rem);
+    font-size: 400;
+}
+
+h6 {
+    font-size: clamp(1.6rem, 2vw, 2.4rem);
+    font-size: 300;
+}
+
+p {
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+}

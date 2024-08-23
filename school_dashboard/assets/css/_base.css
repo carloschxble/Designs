@@ -1,0 +1,73 @@
+/* Style reset - Reseteo de estilos ------------------------------------------------------ */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p, figure {
+    margin: 0;
+}
+
+button, input, textarea {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    background-color: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+/* Global variables - Variables globales ----------------------------------------------- */
+:root {
+    /* IDEEN colors - Colores IDEEN */
+    --IDEEN-green: #18be58;
+    --IDEEN-blue: #011e41;
+
+    /* Shades of black - Tonos de negro */
+    --black: #000;
+    --charcoal: #333;
+    --onyx-black: #1a1a1a;
+    --ink-black: #2b2b2b;
+    --slate-black: #474747;
+
+    /* Shades of white - Tonos de blanco */
+    --white: #fff;
+    --snow-white: #fafafa;
+    --cream-white: #f5f5dc;
+    --pearl-white: #f0f0f0;
+    --off-white: #dcdcdc;
+
+    /* Other colors - Otros Colores */
+    --red: #f00;
+    --orange: #ffa500;
+    --yellow: #ffff00;
+    --gray: #ccc;
+
+    /* Rounded edges - Bordes redondeados */
+    --layout-edge: 2rem;
+
+    /* Transitions - Transiciones */
+    --speed-normal: all 0.6s ease-in-out;
+}
